@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+body {
+  margin:0;
+  background: #c8b7b2;
+}
+ul {
+  list-style: none;
+  margin: 0 auto;
+}
+a {
+  color: rgba(177, 152, 145, 1);
+}
+.button {
+  padding: 1em;
+  background: rgba(177, 152, 145, 1);
+  color: #e0dfd5;
+  text-decoration: none;
+  font-family: 'Pacifico';
+  transition: .5s linear;
+}
+.button:hover {
+  background: #313638;
+}
+nav {
+  display: block;
+  width: 100%;
+  margin: 0 auto 30px;
+}
+.one ul {
+  padding: 1em 0;
+  background: #313638;
+}
+.one a {
+  padding: 1em;
+  background: rgba(177, 152, 145, .3);
+  border-right: 1px solid #313638;
+  color: #e0dfd5;
+  text-decoration: none;
+  font-family: 'Pacifico';
+  transition: .5s linear;
+}
+.one a:hover {
+  background: #313638;
+}
+.one li {
+  display: inline;
+}
+.title {
+  font-family: 'Pacifico';
+  color: #e0dfd5;
+  display: block;
+  margin-left: 15px;
+  margin-right: 15px;
+}
+.text {
+  font-family: 'Pacifico';
+  color: #313638;
+}
+.infoblock {
+  display: block;
+  margin-left: 25px;
+  width: 31.5%;
+  text-align: center;
+}
+.infoblock p {
+  font-family: 'Pacifico';
+  color: #313638;
+  background: #e0dfd5;
+  display: block;
+  padding: 10px;
+}
+.parentblock {
+  display: flex;
+  margin-left: 10px;
+  padding: 10px;
+}
+.pagetitle {
+  font-family: 'Pacifico';
+  color: #313638;
+  display: block;
+  margin-left: 35px;
+}
+.contentblock {
+  display: block;
+  margin-left: 10px;
+  padding: 10px;
+}
+.projectsimage {
+  width: 31.5%;
+}
